@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanksgiving Dine-In Options in Tampa</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8efd4;
+            color: #5a3721;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #b5522e;
+            font-size: 2.5em;
+        }
+        .restaurant {
+            background-color: #fff8e6;
+            border: 1px solid #d8b384;
+            border-radius: 10px;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .restaurant h2 {
+            color: #b5522e;
+            font-size: 1.5em;
+        }
+        .restaurant p {
+            margin: 5px 0;
+        }
+        .menu {
+            margin-top: 10px;
+        }
+        .menu h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            color: #5a3721;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Thanksgiving Dine-In Options in Tampa</h1>
+    <div id="restaurants-container"></div>
+
+    <script>
+        // Load the JSON file
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('restaurants-container');
+                data.forEach(restaurant => {
+                    const restaurantDiv = document.createElement('div');
+                    restaurantDiv.className = 'restaurant';
+
+                    // Create the restaurant name
+                    const name = document.createElement('h2');
+                    name.textContent = restaurant.name;
+                    restaurantDiv.appendChild(name);
+
+                    // Add address, time, price, and phone if they exist
+                    if (restaurant.address) {
+                        const address = document.createElement('p');
+                        address.innerHTML = `<strong>Address:</strong> ${restaurant.address}`;
+                        restaurantDiv.appendChild(address);
+                    }
+
+                    if (restaurant.time) {
+                        const time = document.createElement('p');
+                        time.innerHTML = `<strong>Time:</strong> ${restaurant.time}`;
+                        restaurantDiv.appendChild(time);
+                    }
+
+                    if (restaurant.price) {
+                        const price = document.createElement('p');
+                        price.innerHTML = `<strong>Price:</strong> ${restaurant.price}`;
+                        restaurantDiv.appendChild(price);
+                    }
+
+                    if (restaurant.phone) {
+                        const phone = document.createElement('p');
+                        phone.innerHTML = `<strong>Phone:</strong> ${restaurant.phone}`;
+                        restaurantDiv.appendChild(phone);
+                    }
+
+                    // Create dinner menu if it exists
+                    if (restaurant.dinner_menu && restaurant.dinner_menu.length > 0) {
+                        const dinnerMenuTitle = document.createElement('h3');
+                        dinnerMenuTitle.textContent = 'Dinner Menu:';
+                        restaurantDiv.appendChild(dinnerMenuTitle);
+
+                        const dinnerMenuList = document.createElement('ul');
+                        restaurant.dinner_menu.forEach(item => {
+                            const listItem = document.createElement('li');
+                            listItem.textContent = item;
+                            dinnerMenuList.appendChild(listItem);
+                        });
+                        restaurantDiv.appendChild(dinnerMenuList);
+                    }
+
+                    // Create drink menu if it exists
+                    if (restaurant.drink_menu && restaurant.drink_menu.length > 0) {
+                        const drinkMenuTitle = document.createElement('h3');
+                        drinkMenuTitle.textContent = 'Drink Menu:';
+                        restaurantDiv.appendChild(drinkMenuTitle);
+
+                        const drinkMenuList = document.createElement('ul');
+                        restaurant.drink_menu.forEach(item => {
+                            const listItem = document.createElement('li');
+                            listItem.textContent = item;
+                            drinkMenuList.appendChild(listItem);
+                        });
+                        restaurantDiv.appendChild(drinkMenuList);
+                    }
+
+                    // Append the restaurantDiv to the container
+                    container.appendChild(restaurantDiv);
+                });
+            })
+            .catch(error => console.error('Error loading JSON data:', error));
+    </script>
+</body>
+</html>
