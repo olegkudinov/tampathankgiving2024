@@ -44,12 +44,22 @@
         ul {
             padding-left: 20px;
         }
+        .disclaimer {
+            font-size: 0.9em;
+            color: #7b5a42;
+            text-align: center;
+            margin-top: 30px;
+            border-top: 1px solid #d8b384;
+            padding-top: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>Thanksgiving Dine-In Options in Tampa</h1>
     <div id="restaurants-container"></div>
-
+    <div class="disclaimer">
+        <p>Disclaimer: The information provided on this website is for general informational purposes only. We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, or availability of the information. By using this site, you agree that we are not responsible or liable for any errors, inaccuracies, or any consequences arising from the use of this information.</p>
+    </div>
     <script>
         // Load the JSON file
         fetch('data.json')
