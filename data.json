@@ -1,288 +1,528 @@
 [
+  {
+    "name": "The Capital Grille",
+    "address": "2223 N. Westshore Blvd., Tampa, FL 33607",
+    "time": "November 28, 2024, from 10:00 a.m. to 9:00 p.m.",
+    "price": "$47 for adults; $17 for children; Pumpkin Cheesecake is $11 extra",
+    "phone": "(813) 830-9433",
+    "dinner_menu": [
+      "Slow-roasted turkey with brioche stuffing",
+      "French green beans",
+      "Cranberry pear chutney",
+      "Sam’s mashed potatoes",
+      "Pumpkin cheesecake"
+    ]
+  },
+  {
+    "name": "Rusty Pelican",
+    "address": "2425 N. Rocky Point Dr., Tampa, FL 33607",
+    "time": "November 28, 2024, from 10:00 a.m. to 2:30 p.m. for brunch; 4:00 p.m. to 9:00 p.m. for dinner",
+    "price": "$65 per adult; $35 for children; $18 for bottomless mimosas",
+    "phone": "(813) 281-1943",
+    "dinner_menu": [
+      "Roast turkey",
+      "Prime rib",
+      "Crab legs",
+      "Traditional trimmings"
+    ],
+    "drink_menu": [
+      "Bottomless mimosas"
+    ]
+  },
+  {
+    "name": "Yacht StarShip",
+    "address": "603 Channelside Dr., Tampa, FL 33602",
+    "time": "November 28, 2024, with cruises from 12:00 p.m. to 2:00 p.m., 3:30 p.m. to 5:30 p.m., and 7:00 p.m. to 9:00 p.m.",
+    "price": "$69.95 for adults; $44.95 for children; plus $2 for marine fees and tax",
+    "phone": "(813) 223-7999",
+    "dinner_menu": [
+      "Roasted turkey with sage pan gravy",
+      "Country cornbread stuffing",
+      "Creamy mashed potatoes",
+      "Brussels sprouts",
+      "Glazed baby carrots",
+      "Chef’s dessert selection"
+    ]
+  },
+  {
+    "name": "Seasons 52 Wine Bar & Grille",
+    "address": "204 N. Westshore Blvd., Tampa, FL 33609",
+    "time": "November 28, 2024",
+    "price": "$34.95 for adults; $16.00 for children",
+    "phone": "(813) 286-1152",
+    "dinner_menu": [
+      "Roasted turkey with pan gravy",
+      "Traditional herb stuffing",
+      "Mashed butternut squash",
+      "Yukon mashed potatoes",
+      "Pumpkin Pie Mini Indulgence"
+    ]
+  },
+  {
+    "name": "Del Frisco's Grille",
+    "address": "4138 W. Boy Scout Blvd., Tampa, FL 33607",
+    "time": "November 28, 2024",
+    "phone": "(813) 878-6890",
+    "dinner_menu": [
+      "Herb and citrus butter roasted turkey",
+      "Mashed potatoes",
+      "Brown gravy",
+      "Cranberry sauce"
+    ]
+  },
+  {
+    "name": "Ruth's Chris Steak House",
+    "address": "1700 N. Westshore Blvd., Tampa, FL 33607",
+    "time": "November 28, 2024, from 11:00 a.m.",
+    "price": "$44 for adults; $15 for children under 14",
+    "phone": "(813) 282-1118",
+    "dinner_menu": [
+      "Soup or salad",
+      "Roast turkey with sausage stuffing",
+      "Choice of one of four popular sides",
+      "Pumpkin cheesecake with vanilla bean ice cream"
+    ]
+  },
+  {
+    "name": "Eddie V's Prime Seafood",
+    "address": "4400 W. Boy Scout Blvd., Tampa, FL 33607",
+    "time": "November 28, 2024, from 11:00 a.m. to 9:00 p.m.",
+    "price": "$47 for adults; $17 for children; dessert is $12",
+    "phone": "(813) 877-7290",
+    "dinner_menu": [
+      "Sliced turkey breast with gravy",
+      "Brioche sage stuffing",
+      "Cranberry chutney",
+      "Hand-whipped potatoes",
+      "Baby French green beans with sun-dried tomatoes",
+      "Roasted butternut squash",
+      "Pumpkin pie tartlet with butter pecan ice cream"
+    ]
+  },
+  {
+    "name": "Haven",
+    "address": "2208 W. Morrison Ave., Tampa, FL 33606",
+    "time": "November 28, 2024",
+    "phone": "(813) 258-2233",
+    "dinner_menu": [
+      "Sage roasted turkey breast",
+      "Smoked and pulled dark meat",
+      "Relish",
+      "Gravy"
+    ]
+  },
+  {
+    "name": "Grand Thanksgiving Buffet",
+    "address": "100 Coronado Dr., Clearwater Beach",
+    "time": "November 28, 2024, from 1 pm-9 pm",
+    "price": "$75 for adults; $35 for children aged 12 and under",
+    "dinner_menu": [
+      "Carving station",
+      "Traditional favorites",
+      "Dessert spread"
+    ]
+  },
+  {
+    "name": "JW Marriott Clearwater Beach Resort",
+    "address": "691 S. Gulfview Blvd., Clearwater",
+    "time": "November 28, 2024, from 3 pm-10 pm",
+    "price": "$99 per person",
+    "dinner_menu": [
+      "Turkey breast with all the fixings",
+      "Poached lobster pappardelle"
+    ],
+    "drink_menu": [
+      "Fall Forward",
+      "Banana Bread Black Walnut Old Fashioned",
+      "Pumpkin Spice Rum Chata Martini"
+    ]
+  },
+  {
+    "name": "SIX Tampa at JW Marriott Water Street Tampa",
+    "address": "510 Water St., Tampa",
+    "time": "November 28, 2024",
+    "dinner_menu": [
+      "Turkey roulade",
+      "Cornbread stuffing",
+      "Sweet potato puff",
+      "Haricot vert and mushroom casserole",
+      "Cranberry gastrique",
+      "Warm pumpkin cake",
+      "Brown butter pecan ice cream",
+      "Spiced latte ganache"
+    ]
+  },
+  {
+    "name": "Driftlight Steakhouse at JW Marriott Water Street",
+    "address": "510 Water St., Tampa",
+    "time": "November 28, 2024",
+    "dinner_menu": [
+      "Roasted turkey",
+      "Stuffing cake",
+      "Mattang",
+      "Confit garlic haricot vert",
+      "Cranberry gel",
+      "Sesame veloute",
+      "Sweet corn cake",
+      "Ginger poached plums",
+      "Buttermilk ice cream",
+      "Sweet sage oil"
+    ]
+  },
+  {
+    "name": "Anchor & Brine at Tampa Marriott Water Street",
+    "address": "505 Water St., Tampa",
+    "time": "November 28, 2024",
+    "dinner_menu": [
+      "Herb and garlic brined turkey",
+      "Mashed potatoes and gravy",
+      "Sweet potato casserole with pecans",
+      "Green beans with ham and onion",
+      "Brioche and vegetable stuffing",
+      "Pumpkin pie with cinnamon whipped cream"
+    ],
+    "drink_menu": [
+      "Cranberry Margarita"
+    ]
+  },
+  {
+    "name": "Lona at Tampa Marriott Water Street",
+    "address": "505 Water St., Tampa",
+    "time": "November 28, 2024",
+    "dinner_menu": [
+      "Pavo Yucateco (Yucatan style roasted turkey)",
+      "Calabacitas",
+      "Mexican rice with chile cranberry salsa"
+    ],
+    "drink_menu": [
+      "Cranberry Margarita"
+    ]
+  },
+  {
+    "name": "Bon Appétit",
+    "address": "148 Marina Plaza, Dunedin",
+    "time": "November 28, 2024, from 11 am-9 pm",
+    "price": "$99 plus tax per adult; $10 per child under 10",
+    "dinner_menu": [
+      "Maine lobster 'martini'",
+      "Escargot",
+      "Roasted Carolina turkey with pecan stuffing",
+      "Pan-seared gulf grouper",
+      "Creole remoulade shrimp",
+      "Chilled mussels",
+      "Prime rib beef with au jus"
+    ]
+  },
+  {
+    "name": "Safety Harbor Resort and Spa Thanksgiving Brunch",
+    "address": "105 N. Bayshore Drive, Safety Harbor",
+    "time": "November 28, 2024, from 11 am-3 pm",
+    "price": "$89 plus tax per adult; $36 plus tax per child 10 and under",
+    "dinner_menu": [
+      "Gourmet omelet station",
+      "Pumpkin spice French toast",
+      "Lobster bisque",
+      "Mediterranean platter",
+      "Slow-roasted prime rib",
+      "International cheese board",
+      "Herb-roasted turkey with apple stuffing",
+      "Sweet potato mash with marshmallow and strudel",
+      "Traditional green bean casserole"
+    ]
+  },
+  {
+    "name": "Grand Palm Colonnade Thanksgiving Brunch at TradeWinds Resort",
+    "address": "5500 Gulf Blvd., St. Petersburg",
+    "time": "November 28, 2024, from 11 am-2 pm",
+    "price": "$97.75 per adult; $84.50 for seniors 60+; $52 per child (ages 5-12); kids under 4 eat free",
+    "dinner_menu": [
+      "Gulf peel and eat shrimp",
+      "Made-to-order omelet bar",
+      "Waffles",
+      "Waldorf salad",
+      "Artisan greens salad bar",
+      "Carving station with prime rib and roasted tom turkey",
+      "Lavender salmon",
+      "Bourbon honey glazed ham",
+      "Pasta bar with tri-colored rotini and butternut squash ravioli",
+      "Sage and cranberry cornbread stuffing",
+      "Roasted winter vegetables",
+      "Assorted pies and cheesecakes",
+      "Chocolate fountain",
+      "Mini French pastries",
+      "Petit fours"
+    ]
+  },
+  {
+    "name": "Oystercatchers at Grand Hyatt Tampa Bay",
+    "address": "2900 Bayport Dr., Tampa",
+    "time": "November 28, 2024, from 11 am-5 pm",
+    "price": "$85 for adults; $35 for children 5-12; children under 5 are free",
+    "dinner_menu": [
+      "Seasonal salads",
+      "Artisan cheeses",
+      "Seafood station with shrimp and oysters",
+      "Carving station with prime rib and turkey",
+      "Roasted root vegetables",
+      "Traditional holiday sides",
+      "Dessert assortment"
+    ]
+  },
+  {
+    "name": "Rusty Pelican",
+    "address": "2425 N. Rocky Point Dr., Tampa",
+    "time": "November 28, 2024, from 11 am-8 pm",
+    "price": "$92 per adult; $35 per child ages 5-12",
+    "dinner_menu": [
+      "Deviled eggs",
+      "Honey pumpkin cornbread",
+      "Carved turkey breast",
+      "Sweet potato pie",
+      "Herb-roasted prime rib",
+      "Seared snapper",
+      "Pumpkin cheesecake",
+      "Salted caramel mousse"
+    ]
+  },
+  {
+    "name": "Meat Market Tampa",
+    "address": "1606 W Snow Ave, Tampa, FL 33606",
+    "time": "November 28, 2024, from 5:00 PM to 11:00 PM",
+    "phone": "813-280-1113",
+    "dinner_menu": [
+      "Butternut Squash Soup",
+      "Maple Glazed Turkey Breast",
+      "Confit Turkey Leg",
+      "Sage Stuffing",
+      "Sweet Potato Mash with Marshmallow",
+      "Haricot Vert Almondine",
+      "Truffle Whipped Potatoes",
+      "Bourbon Cranberry Sauce",
+      "Pumpkin Pie",
+      "Pecan Pie"
+    ]
+  },
+  [
     {
-      "name": "The Capital Grille",
-      "address": "2223 N. Westshore Blvd., Tampa, FL 33607",
-      "time": "November 28, 2024, from 10:00 a.m. to 9:00 p.m.",
-      "price": "$47 for adults; $17 for children; Pumpkin Cheesecake is $11 extra",
-      "phone": "(813) 830-9433",
+      "name": "Hotel Haya - Flor Fina",
+      "address": "1412 E 7th Ave., Ybor City, FL",
+      "time": "November 28, 2024, from 11:00 a.m. to 5:00 p.m.",
+      "price": "$95 per adult; $15 for children aged 6-12; children 5 and under eat free",
+      "phone": "(813) 568-1200",
       "dinner_menu": [
-        "Slow-roasted turkey with brioche stuffing",
-        "French green beans",
-        "Cranberry pear chutney",
-        "Sam’s mashed potatoes",
+        "Bread baskets",
+        "Salads",
+        "Turkey",
+        "Salmon",
+        "Prime rib",
+        "Pumpkin pie",
+        "Pecan bars",
+        "Apple cobbler"
+      ]
+    },
+    {
+      "name": "Juno & the Peacock",
+      "address": "100 2nd Ave. N, St. Petersburg, FL",
+      "time": "November 28, 2024",
+      "price": "$125 per adult; $35 for children 12 and under",
+      "phone": "(727) 317-3930",
+      "dinner_menu": [
+        "Prix fixe Thanksgiving meal"
+      ]
+    },
+    {
+      "name": "Tampa Edition - Lilac Restaurant",
+      "address": "500 Channelside Dr., Tampa, FL",
+      "time": "November 28, 2024, from 4:00 p.m. to 9:00 p.m.",
+      "phone": "(813) 221-4600",
+      "dinner_menu": [
+        "Mediterranean-inspired dishes"
+      ]
+    },
+    {
+      "name": "Tampa Edition - Market at Edition",
+      "address": "500 Channelside Dr., Tampa, FL",
+      "time": "November 28, 2024, from 5:30 p.m. to 10:30 p.m.",
+      "phone": "(813) 221-4600",
+      "dinner_menu": [
+        "Italian-coastline-inspired menu"
+      ]
+    },
+    {
+      "name": "Tradewinds Resort - Grand Palm Colonnade",
+      "address": "5500 Gulf Blvd., St. Pete Beach, FL",
+      "time": "November 28, 2024, with seatings at 11:00 a.m. and 1:00 p.m.",
+      "price": "$97.75 per person",
+      "phone": "(727) 367-6461",
+      "dinner_menu": [
+        "Roast turkey",
+        "Seasonal delicacies",
+        "Holiday favorite desserts"
+      ]
+    },
+    {
+      "name": "Timpano Hyde Park",
+      "address": "1610 W Swann Ave, Tampa, FL",
+      "time": "November 28, 2024",
+      "price": "$75 per person",
+      "phone": "(813) 254-5870",
+      "dinner_menu": [
+        "Cheese tortellini",
+        "Turkey polpettini",
+        "Roasted honey nut squash",
+        "Herb-roasted turkey",
+        "Sweet potato buttermilk biscuits",
+        "Cranberry compote"
+      ]
+    },
+    {
+      "name": "The Don CeSar",
+      "address": "3400 Gulf Blvd., St. Pete Beach, FL",
+      "time": "November 28, 2024, from 10:00 a.m. to 3:00 p.m.",
+      "price": "$150 per adult; $50 for children aged 5-12",
+      "phone": "(727) 360-1881",
+      "dinner_menu": [
+        "Made-to-order omelets",
+        "Soups and salads",
+        "Smoked salmon",
+        "Carving stations with turkey and porchetta",
+        "Charcuterie boards",
+        "Stir fries"
+      ]
+    },
+    {
+      "name": "Epicurean Hotel - Élevage SoHo Kitchen & Bar",
+      "address": "1207 S Howard Ave., Tampa, FL",
+      "time": "November 28, 2024, from 11:00 a.m. to 8:00 p.m.",
+      "price": "$70 per adult; $20 for children under 10",
+      "phone": "(813) 999-8726",
+      "dinner_menu": [
+        "Dessert station",
+        "Carving stations",
+        "Homestyle sides",
+        "Salad bar",
+        "Soups",
+        "Bread and butter"
+      ]
+    },
+    {
+      "name": "Fenway Hotel - HEW Parlor & Chophouse",
+      "address": "453 Edgewater Dr., Dunedin, FL",
+      "time": "November 28, 2024, from 11:00 a.m. to 7:00 p.m.",
+      "price": "$85 per adult; $25 for children aged 5 and up",
+      "phone": "(727) 608-6620",
+      "dinner_menu": [
+        "Whipped feta appetizer",
+        "Beef eye roast with sweet bordelaise",
+        "Creole-fried turkey with wild mushroom stuffing and giblet gravy",
+        "Sage and herb-rubbed pork stuffed with caramelized onions and apples topped with a sherry cream",
+        "Potato sides",
+        "Dessert"
+      ]
+    },
+    {
+      "name": "Fleming's Prime Steakhouse and Wine Bar",
+      "address": "4322 W Boy Scout Blvd., Tampa, FL",
+      "time": "November 28, 2024, from 11:00 a.m. to 8:00 p.m.",
+      "price": "$56-$59 per person; $26 for children's three-course meal",
+      "phone": "(813) 874-9463",
+      "dinner_menu": [
+        "Fleming's salad or lobster bisque",
+        "Turkey breast, filet mignon, or 20-oz. prime bone-in ribeye",
+        "Stuffing",
+        "Mashed potatoes",
+        "Green beans with apricots and onions",
+        "Cinnamon orange cranberry sauce",
+        "Cheesecake or carrot cake"
+      ]
+    },
+    {
+      "name": "Flor Fina at Hotel Haya",
+      "address": "1412 E 7th Ave., Ybor City, FL",
+      "time": "November 28, 2024, from 5:00 p.m. to 10:00 p.m.",
+      "price": "$75 per adult; $25 for children aged 6-10",
+      "phone": "(813) 568-1200",
+      "dinner_menu": [
+        "Oyster and chorizo stuffing",
+        "Prime with adobo jus",
+        "Whipped manchego potatoes"
+      ]
+    },
+    {
+      "name": "The Hangar Restaurant",
+      "address": "540 1st St. S, St. Petersburg, FL",
+      "time": "November 28, 2024, from 10:00 a.m. to 3:00 p.m.",
+      "price": "$50 per person; $20 for children",
+      "phone": "(727) 823-7767",
+      "dinner_menu": [
+        "Thanksgiving brunch buffet",
+        "Traditional roasted turkey",
+        "Ham with honey glaze",
+        "Stuffing",
+        "Sweet potatoes",
+        "Green beans",
+        "Cranberry sauce",
+        "Assorted desserts"
+      ]
+    },
+    {
+      "name": "The Birch & Vine",
+      "address": "340 Beach Dr. NE, St. Petersburg, FL",
+      "time": "November 28, 2024, from 12:00 p.m. to 8:00 p.m.",
+      "price": "$65 per adult; $30 for children 12 and under",
+      "phone": "(727) 896-1080",
+      "dinner_menu": [
+        "Traditional Thanksgiving meal",
+        "Turkey with gravy",
+        "Mashed potatoes",
+        "Green bean casserole",
+        "Mac and cheese",
+        "Cranberry chutney",
+        "Pumpkin pie"
+      ]
+    },
+    {
+      "name": "The Club at Treasure Island",
+      "address": "400 Treasure Island Causeway, Treasure Island, FL",
+      "time": "November 28, 2024, from 11:00 a.m. to 3:00 p.m.",
+      "price": "Unknown",
+      "phone": "(727) 367-4511",
+      "dinner_menu": [
+        "Thanksgiving buffet",
+        "Carving stations",
+        "Traditional sides",
+        "Desserts"
+      ]
+    },
+    {
+      "name": "Oxford Exchange",
+      "address": "420 W Kennedy Blvd., Tampa, FL",
+      "time": "November 28, 2024, from 11:00 a.m. to 4:00 p.m.",
+      "price": "$65 per adult; $25 for children under 12",
+      "phone": "(813) 253-0222",
+      "dinner_menu": [
+        "Carved turkey",
+        "Sausage and apple stuffing",
+        "Whipped potatoes",
+        "Brussels sprouts",
+        "Cranberry sauce",
+        "Pecan pie",
         "Pumpkin cheesecake"
       ]
     },
     {
-      "name": "Rusty Pelican",
-      "address": "2425 N. Rocky Point Dr., Tampa, FL 33607",
-      "time": "November 28, 2024, from 10:00 a.m. to 2:30 p.m. for brunch; 4:00 p.m. to 9:00 p.m. for dinner",
-      "price": "$65 per adult; $35 for children; $18 for bottomless mimosas",
-      "phone": "(813) 281-1943",
+      "name": "Steelbach at Armature Works",
+      "address": "1902 N Ola Ave., Tampa, FL",
+      "time": "November 28, 2024, from 11:00 a.m. to 8:00 p.m.",
+      "price": "$79 per adult; $29 for children",
+      "phone": "(813) 693-5478",
       "dinner_menu": [
-        "Roast turkey",
-        "Prime rib",
-        "Crab legs",
-        "Traditional trimmings"
-      ],
-      "drink_menu": [
-        "Bottomless mimosas"
+        "Smoked turkey breast",
+        "Roasted turkey leg",
+        "Pimento mac and cheese",
+        "Maple-glazed carrots",
+        "Buttermilk biscuits",
+        "Pumpkin bread pudding"
       ]
-    },
-    {
-      "name": "Yacht StarShip",
-      "address": "603 Channelside Dr., Tampa, FL 33602",
-      "time": "November 28, 2024, with cruises from 12:00 p.m. to 2:00 p.m., 3:30 p.m. to 5:30 p.m., and 7:00 p.m. to 9:00 p.m.",
-      "price": "$69.95 for adults; $44.95 for children; plus $2 for marine fees and tax",
-      "phone": "(813) 223-7999",
-      "dinner_menu": [
-        "Roasted turkey with sage pan gravy",
-        "Country cornbread stuffing",
-        "Creamy mashed potatoes",
-        "Brussels sprouts",
-        "Glazed baby carrots",
-        "Chef’s dessert selection"
-      ]
-    },
-    {
-      "name": "Seasons 52 Wine Bar & Grille",
-      "address": "204 N. Westshore Blvd., Tampa, FL 33609",
-      "time": "November 28, 2024",
-      "price": "$34.95 for adults; $16.00 for children",
-      "phone": "(813) 286-1152",
-      "dinner_menu": [
-        "Roasted turkey with pan gravy",
-        "Traditional herb stuffing",
-        "Mashed butternut squash",
-        "Yukon mashed potatoes",
-        "Pumpkin Pie Mini Indulgence"
-      ]
-    },
-    {
-      "name": "Del Frisco's Grille",
-      "address": "4138 W. Boy Scout Blvd., Tampa, FL 33607",
-      "time": "November 28, 2024",
-      "phone": "(813) 878-6890",
-      "dinner_menu": [
-        "Herb and citrus butter roasted turkey",
-        "Mashed potatoes",
-        "Brown gravy",
-        "Cranberry sauce"
-      ]
-    },
-    {
-      "name": "Ruth's Chris Steak House",
-      "address": "1700 N. Westshore Blvd., Tampa, FL 33607",
-      "time": "November 28, 2024, from 11:00 a.m.",
-      "price": "$44 for adults; $15 for children under 14",
-      "phone": "(813) 282-1118",
-      "dinner_menu": [
-        "Soup or salad",
-        "Roast turkey with sausage stuffing",
-        "Choice of one of four popular sides",
-        "Pumpkin cheesecake with vanilla bean ice cream"
-      ]
-    },
-    {
-      "name": "Eddie V's Prime Seafood",
-      "address": "4400 W. Boy Scout Blvd., Tampa, FL 33607",
-      "time": "November 28, 2024, from 11:00 a.m. to 9:00 p.m.",
-      "price": "$47 for adults; $17 for children; dessert is $12",
-      "phone": "(813) 877-7290",
-      "dinner_menu": [
-        "Sliced turkey breast with gravy",
-        "Brioche sage stuffing",
-        "Cranberry chutney",
-        "Hand-whipped potatoes",
-        "Baby French green beans with sun-dried tomatoes",
-        "Roasted butternut squash",
-        "Pumpkin pie tartlet with butter pecan ice cream"
-      ]
-    },
-    {
-      "name": "Haven",
-      "address": "2208 W. Morrison Ave., Tampa, FL 33606",
-      "time": "November 28, 2024",
-      "phone": "(813) 258-2233",
-      "dinner_menu": [
-        "Sage roasted turkey breast",
-        "Smoked and pulled dark meat",
-        "Relish",
-        "Gravy"
-      ]
-    },
-            {
-          "name": "Grand Thanksgiving Buffet",
-          "address": "100 Coronado Dr., Clearwater Beach",
-          "time": "November 28, 2024, from 1 pm-9 pm",
-          "price": "$75 for adults; $35 for children aged 12 and under",
-          "dinner_menu": [
-            "Carving station",
-            "Traditional favorites",
-            "Dessert spread"
-          ]
-        },
-        {
-          "name": "JW Marriott Clearwater Beach Resort",
-          "address": "691 S. Gulfview Blvd., Clearwater",
-          "time": "November 28, 2024, from 3 pm-10 pm",
-          "price": "$99 per person",
-          "dinner_menu": [
-            "Turkey breast with all the fixings",
-            "Poached lobster pappardelle"
-          ],
-          "drink_menu": [
-            "Fall Forward",
-            "Banana Bread Black Walnut Old Fashioned",
-            "Pumpkin Spice Rum Chata Martini"
-          ]
-        },
-        {
-          "name": "SIX Tampa at JW Marriott Water Street Tampa",
-          "address": "510 Water St., Tampa",
-          "time": "November 28, 2024",
-          "dinner_menu": [
-            "Turkey roulade",
-            "Cornbread stuffing",
-            "Sweet potato puff",
-            "Haricot vert and mushroom casserole",
-            "Cranberry gastrique",
-            "Warm pumpkin cake",
-            "Brown butter pecan ice cream",
-            "Spiced latte ganache"
-          ]
-        },
-        {
-          "name": "Driftlight Steakhouse at JW Marriott Water Street",
-          "address": "510 Water St., Tampa",
-          "time": "November 28, 2024",
-          "dinner_menu": [
-            "Roasted turkey",
-            "Stuffing cake",
-            "Mattang",
-            "Confit garlic haricot vert",
-            "Cranberry gel",
-            "Sesame veloute",
-            "Sweet corn cake",
-            "Ginger poached plums",
-            "Buttermilk ice cream",
-            "Sweet sage oil"
-          ]
-        },
-        {
-          "name": "Anchor & Brine at Tampa Marriott Water Street",
-          "address": "505 Water St., Tampa",
-          "time": "November 28, 2024",
-          "dinner_menu": [
-            "Herb and garlic brined turkey",
-            "Mashed potatoes and gravy",
-            "Sweet potato casserole with pecans",
-            "Green beans with ham and onion",
-            "Brioche and vegetable stuffing",
-            "Pumpkin pie with cinnamon whipped cream"
-          ],
-          "drink_menu": [
-            "Cranberry Margarita"
-          ]
-        },
-        {
-          "name": "Lona at Tampa Marriott Water Street",
-          "address": "505 Water St., Tampa",
-          "time": "November 28, 2024",
-          "dinner_menu": [
-            "Pavo Yucateco (Yucatan style roasted turkey)",
-            "Calabacitas",
-            "Mexican rice with chile cranberry salsa"
-          ],
-          "drink_menu": [
-            "Cranberry Margarita"
-          ]
-        },
-        {
-          "name": "Bon Appétit",
-          "address": "148 Marina Plaza, Dunedin",
-          "time": "November 28, 2024, from 11 am-9 pm",
-          "price": "$99 plus tax per adult; $10 per child under 10",
-          "dinner_menu": [
-            "Maine lobster 'martini'",
-            "Escargot",
-            "Roasted Carolina turkey with pecan stuffing",
-            "Pan-seared gulf grouper",
-            "Creole remoulade shrimp",
-            "Chilled mussels",
-            "Prime rib beef with au jus"
-          ]
-        },
-        {
-          "name": "Safety Harbor Resort and Spa Thanksgiving Brunch",
-          "address": "105 N. Bayshore Drive, Safety Harbor",
-          "time": "November 28, 2024, from 11 am-3 pm",
-          "price": "$89 plus tax per adult; $36 plus tax per child 10 and under",
-          "dinner_menu": [
-            "Gourmet omelet station",
-            "Pumpkin spice French toast",
-            "Lobster bisque",
-            "Mediterranean platter",
-            "Slow-roasted prime rib",
-            "International cheese board",
-            "Herb-roasted turkey with apple stuffing",
-            "Sweet potato mash with marshmallow and strudel",
-            "Traditional green bean casserole"
-          ]
-        },
-        {
-          "name": "Grand Palm Colonnade Thanksgiving Brunch at TradeWinds Resort",
-          "address": "5500 Gulf Blvd., St. Petersburg",
-          "time": "November 28, 2024, from 11 am-2 pm",
-          "price": "$97.75 per adult; $84.50 for seniors 60+; $52 per child (ages 5-12); kids under 4 eat free",
-          "dinner_menu": [
-            "Gulf peel and eat shrimp",
-            "Made-to-order omelet bar",
-            "Waffles",
-            "Waldorf salad",
-            "Artisan greens salad bar",
-            "Carving station with prime rib and roasted tom turkey",
-            "Lavender salmon",
-            "Bourbon honey glazed ham",
-            "Pasta bar with tri-colored rotini and butternut squash ravioli",
-            "Sage and cranberry cornbread stuffing",
-            "Roasted winter vegetables",
-            "Assorted pies and cheesecakes",
-            "Chocolate fountain",
-            "Mini French pastries",
-            "Petit fours"
-          ]
-        },
-        {
-            "name": "Oystercatchers at Grand Hyatt Tampa Bay",
-            "address": "2900 Bayport Dr., Tampa",
-            "time": "November 28, 2024, from 11 am-5 pm",
-            "price": "$85 for adults; $35 for children 5-12; children under 5 are free",
-            "dinner_menu": [
-              "Seasonal salads",
-              "Artisan cheeses",
-              "Seafood station with shrimp and oysters",
-              "Carving station with prime rib and turkey",
-              "Roasted root vegetables",
-              "Traditional holiday sides",
-              "Dessert assortment"
-            ]
-          },
-          {
-            "name": "Rusty Pelican",
-            "address": "2425 N. Rocky Point Dr., Tampa",
-            "time": "November 28, 2024, from 11 am-8 pm",
-            "price": "$92 per adult; $35 per child ages 5-12",
-            "dinner_menu": [
-              "Deviled eggs",
-              "Honey pumpkin cornbread",
-              "Carved turkey breast",
-              "Sweet potato pie",
-              "Herb-roasted prime rib",
-              "Seared snapper",
-              "Pumpkin cheesecake",
-              "Salted caramel mousse"
-            ]
-          }
+    }
   ]
-  
