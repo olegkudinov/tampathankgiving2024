@@ -74,9 +74,9 @@
             or liable for any errors, inaccuracies, or any consequences arising from the use of this information.</p>
     </div>
     <script>
-        console.log("Version: 1.0.4");
-        // Load the JSON file
-        fetch('data.json')
+        const version = '1.0.5';
+        console.log(`Version: ${version}`);
+        fetch(`data.json?v=${version}`)
             .then(response => response.json())
             .then(data => {
                 const container = document.getElementById('restaurants-container');
