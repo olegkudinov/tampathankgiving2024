@@ -214,32 +214,6 @@
           ]
         },
         {
-          "name": "The Capital Grille",
-          "address": "2223 N. Westshore Blvd., Tampa",
-          "time": "November 28, 2024",
-          "dinner_menu": [
-            "Brioche stuffing",
-            "French green beans with Marcona almonds",
-            "Cranberry-pear chutney",
-            "Pecan-crusted sweet potatoes with hot honey",
-            "Mashed potatoes",
-            "Rolls",
-            "Pumpkin cheesecake"
-          ]
-        },
-        {
-          "name": "Yacht StarShip Thanksgiving Dinner Cruise",
-          "address": "Tampa dock: 603 Channelside Dr., Tampa; Clearwater dock: 25 Causeway Blvd., Clearwater",
-          "time": "November 28, 2024, at 11:30 am, 3 pm, and 6:30 pm",
-          "price": "$74.95 for adults; $44.95 for children, plus $3 marine fees, tax, and a $10 gratuity",
-          "dinner_menu": [
-            "Carved turkey with sage pan gravy",
-            "Apple cheddar cornbread stuffing",
-            "Yukon mashed potatoes with ricotta and buttermilk",
-            "Chef's dessert selection"
-          ]
-        },
-        {
           "name": "Safety Harbor Resort and Spa Thanksgiving Brunch",
           "address": "105 N. Bayshore Drive, Safety Harbor",
           "time": "November 28, 2024, from 11 am-3 pm",

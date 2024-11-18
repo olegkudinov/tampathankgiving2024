@@ -65,13 +65,15 @@
                     name.textContent = restaurant.name;
                     restaurantDiv.appendChild(name);
 
-                    // Add address, time, price, and phone if they exist
+                    // Add address with a link to Google Maps
                     if (restaurant.address) {
                         const address = document.createElement('p');
-                        address.innerHTML = `<strong>Address:</strong> ${restaurant.address}`;
+                        const googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurant.address)}`;
+                        address.innerHTML = `<strong>Address:</strong> <a href="${googleMapsLink}" target="_blank">${restaurant.address}</a>`;
                         restaurantDiv.appendChild(address);
                     }
 
+                    // Add time, price, and phone if they exist
                     if (restaurant.time) {
                         const time = document.createElement('p');
                         time.innerHTML = `<strong>Time:</strong> ${restaurant.time}`;
