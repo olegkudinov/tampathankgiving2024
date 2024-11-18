@@ -88,7 +88,8 @@
 
                     if (restaurant.phone) {
                         const phone = document.createElement('p');
-                        phone.innerHTML = `<strong>Phone:</strong> ${restaurant.phone}`;
+                        const phoneLink = `tel:${restaurant.phone.replace(/[^0-9]/g, '')}`;
+                        phone.innerHTML = `<strong>Phone:</strong> <a href="${phoneLink}">${restaurant.phone}</a>`;
                         restaurantDiv.appendChild(phone);
                     }
 
